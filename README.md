@@ -11,7 +11,8 @@ This script needs the installation of Bedtools utilities in the OS environement.
 Script needs to be execute in BASH environnement with previous dependencies:
 
 USAGE: 
-    $sh acgh_subcontrol_HG18.sh example.bed control.bed
+      
+      $sh acgh_subcontrol_HG18.sh example.bed control.bed
 
 EXAMPLE FILE: "example.bed" with minimum 5 columns needs to be pass as first parameter of the shell line bed file and control bed file as 2nd parameter of shell line, bed files need to be place at the parental directory so same the directory than the script!
 
@@ -25,7 +26,7 @@ DATABASES :
 
 DEPENDENCIES:
 
-    - Bedtools (Quinlan, 2014)
+   - Bedtools (Quinlan, 2014)
 
 References
 
