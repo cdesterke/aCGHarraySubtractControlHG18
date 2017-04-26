@@ -2,29 +2,30 @@
 Shell script which allowed to remove european polymorphism in CNV and annotate genomic intervals on HG18 after subtracting genomic intervals of control condition
 This script needs the installation of Bedtools utilities in the OS environement. This script also needs dependencies of installing 5 annotation databases in the subfolder DATABASES_HG18:
 
-    hg18GENEname_sorted.bed: Refseq HG18 annotations
-    scandbHG18CEU_sorted.bed: CNV polymorphisms in european population, data derived from http://www.scandb.org/ website
-    plurinetHG18_sorted.bed: genes that are characterized as belonging to a pluripotency network (PLURINET DB)
-    CosmicHG18.bed: genes presenting somatic alteration in cancer and leukemia
-    TFHG18.bed: census database of molecules classed as transcription factor
+   - hg18GENEname_sorted.bed: Refseq HG18 annotations
+   - scandbHG18CEU_sorted.bed: CNV polymorphisms in european population, data derived from http://www.scandb.org/ website
+   - plurinetHG18_sorted.bed: genes that are characterized as belonging to a pluripotency network (PLURINET DB)
+   - CosmicHG18.bed: genes presenting somatic alteration in cancer and leukemia
+   - TFHG18.bed: census database of molecules classed as transcription factor
 
 Script needs to be execute in BASH environnement with previous dependencies:
 
-USAGE: $sh acgh_subcontrol_HG18.sh example.bed control.bed
+USAGE: 
+    $sh acgh_subcontrol_HG18.sh example.bed control.bed
 
 EXAMPLE FILE: "example.bed" with minimum 5 columns needs to be pass as first parameter of the shell line bed file and control bed file as 2nd parameter of shell line, bed files need to be place at the parental directory so same the directory than the script!
 
 DATABASES :
 
-    Transcription factor database (Vaquerizas et al., 2009)
-    COSMIC database (Futreal et al., 2004)
-    Plurinet database (Müller et al., 2008)
-    European CNV polymorphism annotation (Gamazon et al., 2010)
-    RefSeq annotation database on HG18 (O’Leary et al., 2016)
+   - Transcription factor database (Vaquerizas et al., 2009)
+   - COSMIC database (Futreal et al., 2004)
+   - Plurinet database (Müller et al., 2008)
+   - European CNV polymorphism annotation (Gamazon et al., 2010)
+   - RefSeq annotation database on HG18 (O’Leary et al., 2016)
 
 DEPENDENCIES:
 
-    Bedtools (Quinlan, 2014)
+    - Bedtools (Quinlan, 2014)
 
 References
 
