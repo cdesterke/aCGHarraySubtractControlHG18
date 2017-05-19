@@ -1,5 +1,5 @@
 # aCGHarraySubtractControlHG18
-Shell script which allowed to remove european polymorphism in CNV and annotate genomic intervals on HG18 after subtracting genomic intervals of control condition
+Shell script which allowed to remove european polymorphism in CNV and annotate genomic intervals on HG18 after subtracting genomic intervals of control condition.
 This script needs the installation of Bedtools utilities in the OS environement. This script also needs dependencies of installing 5 annotation databases in the subfolder DATABASES_HG18:
 
    - hg18GENEname_sorted.bed: Refseq HG18 annotations
@@ -8,7 +8,7 @@ This script needs the installation of Bedtools utilities in the OS environement.
    - CosmicHG18.bed: genes presenting somatic alteration in cancer and leukemia
    - TFHG18.bed: census database of molecules classed as transcription factor
 
-Script needs to be execute in BASH environnement with previous dependencies:
+Script needs to be execute in BASH environnement with previous dependencies.
 
 USAGE: 
       
